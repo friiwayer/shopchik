@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eveapi version="2">
+  <currentTime>2013-11-07 20:00:02</currentTime>
+  <result>
+    <corporationID>175862913</corporationID>
+    <corporationName>Sleepers Awake</corporationName>
+    <ticker>S.AW.</ticker>
+    <ceoID>1925102742</ceoID>
+    <ceoName>Wormhole Man</ceoName>
+    <stationID>60003760</stationID>
+    <stationName>Jita IV - Moon 4 - Caldari Navy Assembly Plant</stationName>
+    <description>Объявлен набор PVP/PVE пилотов</description>
+    <url>http://</url>
+    <allianceID>99003006</allianceID>
+    <factionID>0</factionID>
+    <allianceName>Brothers of Tangra</allianceName>
+    <taxRate>10</taxRate>
+    <memberCount>88</memberCount>
+    <shares>1000</shares>
+    <logo>
+      <graphicID>0</graphicID>
+      <shape1>535</shape1>
+      <shape2>563</shape2>
+      <shape3>527</shape3>
+      <color1>676</color1>
+      <color2>677</color2>
+      <color3>676</color3>
+    </logo>
+  </result>
+  <cachedUntil>2013-11-07 21:25:23</cachedUntil>
+</eveapi>

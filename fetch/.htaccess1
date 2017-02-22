@@ -1,0 +1,4 @@
+AuthName "Simpla CMS"
+AuthType Basic
+AuthUserFile 127.0.0.1/shopchik/fetch/.passwd
+require valid-user

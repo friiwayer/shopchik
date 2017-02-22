@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eveapi version="2">
+  <currentTime>2013-11-07 20:22:02</currentTime>
+  <error code="220">Invalid Corporation Key. Key owner does not fullfill role requirements anymore.</error>
+  <cachedUntil>2013-11-08 20:22:02</cachedUntil>
+</eveapi>

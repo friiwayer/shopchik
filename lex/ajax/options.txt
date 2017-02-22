@@ -1,0 +1,1 @@
+﻿:;word:налог;nalog:150011100;use_word:1;login:admin;pass:12345;sec_word:jopi;

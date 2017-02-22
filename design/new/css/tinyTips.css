@@ -1,0 +1,26 @@
+﻿@charset "utf-8";
+
+.lightTip						{ width: 200px; }
+.lightTip .content				{ width: 200px; padding: 10px; border: 6px solid #e2e2e2; -moz-border-radius: 5px; -webkit-border-radius: 5px; background: #ffffff; color: #020202;
+box-shadow: 0 0 10px rgba(0,0,0,7);  }
+.lightTip .bottom				{ height: 14px; background: url(../images/notch-white.png) top center no-repeat; }
+
+.blueTip { 
+width: 180px; 
+}
+
+.blueTip .content { 
+width: 200px; 
+padding: 10px; 
+background: #fff; 
+color: #636466;
+word-wrap: break-word;
+border: 1px solid #8C8C8C;
+border: 1px solid rgba(0, 0, 0, .45);
+-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+border-radius: 3px;
+}
+
+.blueTip .bottom				{ height: 14px; 
+background: url(../images/notch-white.png) center no-repeat; 
+margin-top:-1px;}

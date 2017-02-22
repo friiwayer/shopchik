@@ -1,0 +1,202 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma;
+}
+
+body {
+	text-align: center;
+	background-color: #001320;
+}
+.xyu{
+    font-weight:bold;
+    color:#fff;
+    text-align:left;
+    font-size:17px;
+    font-family: arial;
+}
+
+h1 {
+    font-size: 32pt;
+    border-bottom: 1px solid #DDD;
+    margin: 0;
+    color: #0E4E9E;
+    font-family:arial;
+}
+
+h2.subtitle {
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+#leave_email{
+    border-top:1px solid #ccc;
+    height:50px;
+    padding-top:10px;
+    position:absolute;
+    bottom:0;
+}
+.input_button{
+    height: 40px;
+    float: none;
+    display: inline-block;
+    background: #F5F8F9 url(fon1.png) 50% 50% repeat-x;
+    width: 113px;
+    cursor: pointer;
+    border: 0;
+    margin: 1px 0px 5px 0px;
+    font: bold 18px Arial,sans-serif;
+    text-align: left;
+    line-height: 30px;
+    text-decoration: none;
+    color: #2E6E9E;
+    text-align: center;
+    border: solid 1px #C5DBEC;
+    vertical-align: middle;
+}
+.input_button:hover{
+    border: 1px solid #79B7E7;
+    background: #F5F8F9 url(fon1.png) 50% 50% repeat-x;
+    font-weight: bold;
+    color: #E17009;
+    outline: none;
+}
+#container {
+	margin: 100px auto;
+	width: 700px;
+	color: #eee;
+}
+
+#countdown_dashboard {
+	height: 96px;
+	margin-left: 180px;
+}
+
+.dash {
+	width: 138px;
+	height: 96px;
+	background: transparent url('../images/dash.png') 0 0 no-repeat;
+	float: left;
+	margin-left: 0px;
+	padding-left: 3px;
+	position: relative;
+	color: #333;
+}
+
+.weeks_dash {
+	background: transparent url('../images/dark_weeks_dash.png') 0 0 no-repeat;
+}
+
+.days_dash {
+	background: transparent url('../images/dark_days_dash.png') 0 0 no-repeat;
+}
+
+.hours_dash {
+	clear: left;
+	background: transparent url('../images/dark_hours_dash.png') 0 0 no-repeat;
+}
+
+.minutes_dash {
+	background: transparent url('../images/dark_minutes_dash.png') 0 0 no-repeat;
+}
+
+.seconds_dash {
+	background: transparent url('../images/dark_seconds_dash.png') 0 0 no-repeat;
+}
+
+.dash .digit {
+	font: bold 52pt Verdana;
+	font-weight: bold;
+	float: left;
+	width: 59px;
+	text-align: center;
+	position: relative;
+}
+
+.dash_title {
+	display: none;
+}
+
+.dev_comment {
+	clear: left;
+	font-size: 14pt;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+	margin: 20px 10px;
+}
+
+#subscribe_form {
+	position: relative;
+} 
+
+#email_field {
+	font-size: 16pt;
+	padding: 6px 10px;
+	width: 300px;
+}
+
+#subscribe_button {
+	font-size: 14pt;
+	color: #333;
+	padding: 4px 8px;
+}
+
+.copyright {
+	font-size: 9pt;
+	color: #333;
+	margin: 40px 0px;
+}
+
+.faded {
+	color: #999;
+}
+
+.form_message {
+	width: 400px;
+	padding: 10px;
+	margin: 15px auto;
+	display: none;
+}
+
+#error_message {
+	background-color: #ffe;
+	border-left: 5px solid #bb3;
+	border-right: 5px solid #bb3;
+	color: #770;
+}
+
+#info_message {
+	background-color: #f0f9ff;
+	border: 1px solid #eef;
+	color: #247;
+}
+
+#loading {
+	text-align: center;
+	margin: 10px;
+	display: none;
+	position: absolute;
+	width: 100%;
+	top: 60px;
+}
+
+#defaultCountdown { width: 240px; height: 45px; }
+#glowingLayout span { display: block; float: left; width: 34px; height: 50px; 
+    background: url(countdownGlowing.gif) no-repeat 0px 0px; } 
+#glowingLayout span.image0 { background-position: -0px 0px; } 
+#glowingLayout span.image1 { background-position: -34px 0px; } 
+#glowingLayout span.image2 { background-position: -68px 0px; } 
+#glowingLayout span.image3 { background-position: -102px 0px; } 
+#glowingLayout span.image4 { background-position: -136px 0px; } 
+#glowingLayout span.image5 { background-position: -170px 0px; } 
+#glowingLayout span.image6 { background-position: -204px 0px; } 
+#glowingLayout span.image7 { background-position: -238px 0px; } 
+#glowingLayout span.image8 { background-position: -272px 0px; } 
+#glowingLayout span.image9 { background-position: -306px 0px; } 
+#glowingLayout span.imageDay { background-position: -340px 0px; } 
+#glowingLayout span.imageSep { background-position: -374px 0px; } 
+#glowingLayout span.imageSpace { background-position: -408px 0px; }
+.hasCountdown{
+    background-color:#000;
+    border-radius:5px;
+}

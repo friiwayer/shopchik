@@ -1,0 +1,132 @@
+a {text-decoration: none;}
+
+.left {float: left;}
+.right {float:right;}
+.clear {clear: both;}
+
+.slider {
+	width: 530px;
+	position: relative;
+	height: 370px;
+    float:right;
+}
+.slider_bg {position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background: url(../images/slider_bg.png); z-index: -1;}
+.slider_inner {
+	position: absolute; 
+	z-index: 99;
+	padding: 20px 25px;
+}
+		
+.slider_inner .slider_photo .slider_photo_item {display: none; position:absolute; right:0;}
+
+.right {
+	width: 300px; 
+	padding-left: 20px;
+}
+
+.slider_right_items {
+	height: 317px;
+}
+
+.slider_right_item {
+	display: none;
+}
+
+.slider_photo_item{
+    bottom:0;
+    right:0;
+    position:absolute;
+}
+
+.slider_right_item_inner {height: 232px; overflow: hidden;}
+
+.slider_name {
+	width: 300px;
+	overflow: hidden;
+	font-family:  Arial;
+	font-weight: bold;
+	font-size: 16px; 
+	line-height: 36px;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+
+.slider_name a {color: #000;}
+.slider_name a:hover {color: #b57ee7}
+
+
+.slider_entry {
+	font-style: italic;
+	line-height: 18px;
+	font-size: 14px;
+	color: #b57ee7;
+	margin-bottom: 10px;
+					}
+					
+.slider_entry a {color: #b57ee7;}
+
+.slider_entry a:hover {color: #000} 
+
+
+.slider_readmore {
+	background: #ffc90a;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	color: #243d66;
+	font-size: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 7px 10px;
+	display: block;
+	float:left;
+	margin-top: 20px;
+}
+			
+.slider_readmore span {
+	background: url(../images/readmore_ar.png);
+	display: block;
+	float: right;
+	width: 5px; height: 7px;
+	margin-left: 5px;
+	margin-top: 3px;
+}
+
+
+.slider_switch  ul {
+	clear:left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.slider_switch  ul li {
+	display: block;
+	float:left;
+	margin-right: 5px;
+}
+
+
+.slider_switch  ul li a {
+	display: block;
+	width: 11px;
+	height: 11px;
+	background: #8e37de;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	margin-top: 2px;
+}
+							
+.slider_switch  ul li a:hover {background: #6c06cb;}
+
+.slider_switch  ul li.active a {
+	width: 13px; 
+	height: 13px;
+	background: #fff;
+	margin-top: 0px;
+}
+
+
+.slider_switch  ul li.active a:hover {background: #fff;}

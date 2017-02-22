@@ -1,0 +1,31 @@
+$(function(){
+	var slider=$('.slider')
+		slider._TMS({
+		items:'.items li',
+		preload:false,
+		playBlock:true,
+		pagNums:true,
+		pagination:true,
+		slideShow:6000,
+		duration:800,
+		progressBar:false,
+		show:0,
+		banners:true,
+		playBu:'.play',
+		prevBu:'.prev',
+		nextBu:'.next',
+		preset:'gorizontalLines',
+		bannerMeth:'custom',
+		beforeAnimation:function(banner){
+			banner
+				.stop()
+				.animate({bottom:-banner.width()},800)
+		},
+		afterAnimation:function(banner){
+			banner
+				.css({bottom:-banner.width()})
+				.stop()
+				.animate({bottom:10},500)
+		}
+	})
+ })
